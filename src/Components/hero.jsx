@@ -8,8 +8,8 @@ const Hero = () => {
                 <h1 className="text-5xl font-bold mb-4">Hello, I'm Andrew</h1>
                 <p className="text-3xl font-bold mb-4 pr-32 text-amber-400">Software Developer</p>
                 <div className="flex gap-4 pr-32">
-                    <a href="#about" className="bg-amber-400 text-white px-6 py-3 rounded-full hover:bg-amber-500 transition duration-300">
-                    Hire Me
+                    <a href="/Andrew_Bakareke_CV.pdf" className="bg-amber-400 text-white px-6 py-3 rounded-full hover:bg-amber-500 transition duration-300">
+                    Download CV
                     </a>
                     <a href="#aboutMe" className="text-white px-6 py-3 rounded-full border border-black-500 hover:bg-amber-500 transition duration-300"
                     >
