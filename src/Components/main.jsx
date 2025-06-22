@@ -1,5 +1,5 @@
-import Nav from "./nav";
-import Hero from "./Hero";
+import Nav from "./nav";``
+import Hero from "./hero";
 import About from "./about";
 import Service from "./service";
 import Contact from "./contact";
