@@ -10,12 +10,12 @@ const About = () => {
   };
 
   const skills = [
-    { name: "Frontend Development", level: 90 },
-    { name: "React & Next.js", level: 95 },
-    { name: "JavaScript/TypeScript", level: 88 },
-    { name: "UI/UX Design", level: 85 },
-    { name: "Mobile Development", level: 80 },
-    { name: "Backend Development", level: 75 }
+    "Frontend Development",
+    "React & Next.js",
+    "JavaScript/TypeScript",
+    "UI/UX Design",
+    "Mobile Development",
+    "Backend Development"
   ];
 
   const values = [
@@ -60,18 +60,12 @@ const About = () => {
           <div className="space-y-8">
             <div className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-slate-700">
               <h3 className="text-2xl font-semibold mb-6 text-white">My Story</h3>
-              <div className="space-y-6 text-gray-300">
+              <div className="space-y-4 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  I am an enthusiastic and dedicated software engineering student with a strong passion for developing innovative solutions. 
-                  My journey in technology began with curiosity and has evolved into a commitment to creating impactful digital experiences.
+                  I'm a software engineering student passionate about building impactful digital solutions. My journey in tech started with curiosity and has grown into a commitment to creating meaningful user experiences through clean, maintainable code.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Detail-oriented and quality-focused, I strive to write clean and maintainable code that stands the test of time. 
-                  As a continuous learner, I am always eager to expand my knowledge and stay updated with the latest technologies and industry best practices.
-                </p>
-                <p className="text-lg leading-relaxed">
-                  With excellent communication and collaboration skills, I thrive in team environments where creativity and innovation flourish. 
-                  My passion for leveraging technology to create innovative solutions is coupled with strong problem-solving and debugging abilities.
+                  As a continuous learner, I stay updated with the latest technologies and best practices. I enjoy collaborating in team environments and solving complex problems with creative solutions.
                 </p>
               </div>
               
@@ -98,20 +92,14 @@ const About = () => {
             {/* Skills */}
             <div className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-slate-700">
               <h3 className="text-2xl font-semibold mb-6 text-white">Technical Skills</h3>
-              <div className="space-y-6">
+              <div className="flex flex-wrap gap-3">
                 {skills.map((skill, index) => (
-                  <div key={index}>
-                    <div className="flex justify-between mb-2">
-                      <span className="text-gray-300 font-medium">{skill.name}</span>
-                      <span className="text-amber-400 font-semibold">{skill.level}%</span>
-                    </div>
-                    <div className="w-full bg-slate-700 rounded-full h-3">
-                      <div
-                        className="bg-gradient-to-r from-amber-400 to-orange-500 h-3 rounded-full transition-all duration-1000 ease-out"
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
-                  </div>
+                  <span
+                    key={index}
+                    className="px-4 py-2 bg-slate-800 rounded-full text-sm text-amber-400 border border-slate-600 hover:border-amber-400/50 transition-colors duration-300"
+                  >
+                    {skill}
+                  </span>
                 ))}
               </div>
             </div>
