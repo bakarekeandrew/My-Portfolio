@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
               href="/Andrew_Bakareke_CV.pdf"
-              className="bg-gradient-to-r from-amber-400 to-orange-500 text-white px-8 py-3 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
+              className="bg-amber-400 text-white px-8 py-3 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
             >
               <Download size={20} />
               Download CV

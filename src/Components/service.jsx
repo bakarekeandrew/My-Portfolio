@@ -233,7 +233,7 @@ const Service = () => {
           </p>
           <button
             onClick={scrollToContact}
-            className="bg-gradient-to-r from-amber-400 to-orange-500 text-white px-8 py-4 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 text-lg font-semibold"
+            className="bg-amber-400 text-white px-8 py-4 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 text-lg font-semibold"
           >
             Start Your Project Today
           </button>

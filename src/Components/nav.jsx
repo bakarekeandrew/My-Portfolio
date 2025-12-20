@@ -74,7 +74,7 @@ const Nav = () => {
           {/* Contact Button */}
           <button
             onClick={() => scrollToSection('contact')}
-            className="bg-gradient-to-r from-amber-400 to-orange-500 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300"
+            className="bg-amber-400 text-white px-6 py-2 rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300"
           >
             Get In Touch
           </button>
