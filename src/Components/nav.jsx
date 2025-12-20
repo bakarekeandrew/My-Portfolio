@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const nav = () => {
+const Nav = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState('home');
 
@@ -84,4 +84,4 @@ const nav = () => {
   );
 };
 
-export default nav;
+export default Nav;

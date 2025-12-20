@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Twitter, Facebook, Mail, ExternalLink, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
 
-const contact = () => {
+const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -273,4 +273,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Code, Smartphone, Palette, Globe, Database, Zap, ArrowRight, CheckCircle } from 'lucide-react';
 
-const service = () => {
+const Service = () => {
   const services = [
     {
       icon: <Code size={48} />,
@@ -243,4 +243,4 @@ const service = () => {
   );
 };
 
-export default service;
+export default Service;

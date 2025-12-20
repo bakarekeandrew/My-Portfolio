@@ -1,7 +1,7 @@
 import React from 'react';
 import { Code2, Lightbulb, Users, Zap, Download, Award, BookOpen, Coffee } from 'lucide-react';
 
-const about = () => {
+const About = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -245,4 +245,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;
