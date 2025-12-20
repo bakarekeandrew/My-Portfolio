@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Github, Linkedin, Twitter, Facebook, Mail, ExternalLink, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
+import { Github, Linkedin, Mail, ExternalLink, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -68,20 +68,6 @@ const Contact = () => {
       icon: <Linkedin size={24} />,
       url: 'https://www.linkedin.com/in/bakareke-andrew-307991249/',
       color: 'hover:bg-blue-700',
-      username: 'Andrew Bakareke'
-    },
-    {
-      name: 'Twitter',
-      icon: <Twitter size={24} />,
-      url: '#',
-      color: 'hover:bg-sky-700',
-      username: '@andrewdev'
-    },
-    {
-      name: 'Facebook',
-      icon: <Facebook size={24} />,
-      url: '#',
-      color: 'hover:bg-blue-600',
       username: 'Andrew Bakareke'
     }
   ];
@@ -248,22 +234,6 @@ const Contact = () => {
                     <ExternalLink size={16} className="text-gray-400 group-hover:text-white transition-colors duration-300" />
                   </a>
                 ))}
-              </div>
-            </div>
-
-            {/* Availability */}
-            <div className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-slate-700">
-              <h3 className="text-2xl font-semibold mb-4 text-white">Availability</h3>
-              <div className="space-y-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                  <span className="text-white">Available for new projects</span>
-                </div>
-                <div className="text-gray-400 text-sm">
-                  <p className="mb-2">• Response time: Within 24 hours</p>
-                  <p className="mb-2">• Working hours: 9 AM - 6 PM (CAT)</p>
-                  <p>• Preferred project duration: 2-12 weeks</p>
-                </div>
               </div>
             </div>
           </div>

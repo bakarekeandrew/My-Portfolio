@@ -14,8 +14,7 @@ const Service = () => {
         "Performance Optimization",
         "Modern UI/UX"
       ],
-      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-      price: "Starting from $800"
+      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
     },
     {
       icon: <Smartphone size={48} />,
@@ -28,8 +27,7 @@ const Service = () => {
         "Offline Functionality",
         "App Store Deployment"
       ],
-      technologies: ["React Native", "Flutter", "iOS", "Android"],
-      price: "Starting from $1,200"
+      technologies: ["React Native", "Flutter", "iOS", "Android"]
     },
     {
       icon: <Palette size={48} />,
@@ -42,8 +40,7 @@ const Service = () => {
         "Visual Design",
         "Usability Testing"
       ],
-      technologies: ["Figma", "Adobe XD", "Sketch", "InVision"],
-      price: "Starting from $600"
+      technologies: ["Figma", "Adobe XD", "Sketch", "InVision"]
     },
     {
       icon: <Globe size={48} />,
@@ -56,8 +53,7 @@ const Service = () => {
         "Order Tracking",
         "Analytics Dashboard"
       ],
-      technologies: ["Shopify", "WooCommerce", "Stripe", "PayPal"],
-      price: "Starting from $1,500"
+      technologies: ["Shopify", "WooCommerce", "Stripe", "PayPal"]
     },
     {
       icon: <Database size={48} />,
@@ -70,8 +66,7 @@ const Service = () => {
         "Cloud Integration",
         "Security Implementation"
       ],
-      technologies: ["Node.js", "Python", "MongoDB", "PostgreSQL"],
-      price: "Starting from $1,000"
+      technologies: ["Node.js", "Python", "MongoDB", "PostgreSQL"]
     },
     {
       icon: <Zap size={48} />,
@@ -84,8 +79,7 @@ const Service = () => {
         "Database Tuning",
         "CDN Implementation"
       ],
-      technologies: ["Lighthouse", "WebPageTest", "GTMetrix", "CloudFlare"],
-      price: "Starting from $500"
+      technologies: ["Lighthouse", "WebPageTest", "GTMetrix", "CloudFlare"]
     }
   ];
 
@@ -163,9 +157,8 @@ const Service = () => {
                   </div>
                 </div>
 
-                {/* Price */}
-                <div className="flex items-center justify-between">
-                  <span className="text-lg font-semibold text-white">{service.price}</span>
+                {/* CTA Button */}
+                <div className="flex justify-end mt-6">
                   <button
                     onClick={scrollToContact}
                     className="flex items-center gap-2 text-amber-400 hover:text-white transition-colors duration-300 group"
@@ -177,47 +170,6 @@ const Service = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Process Section */}
-        <div className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 lg:p-12 shadow-xl border border-slate-700 mb-16">
-          <h3 className="text-3xl font-bold text-center mb-12">
-            My{' '}
-            <span className="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">
-              Process
-            </span>
-          </h3>
-          
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            {[
-              {
-                step: "01",
-                title: "Discovery",
-                description: "Understanding your needs, goals, and project requirements"
-              },
-              {
-                step: "02",
-                title: "Planning",
-                description: "Creating detailed project timeline, wireframes, and technical specifications"
-              },
-              {
-                step: "03",
-                title: "Development",
-                description: "Building your solution with regular updates and feedback sessions"
-              },
-              {
-                step: "04",
-                title: "Delivery",
-                description: "Testing, deployment, and ongoing support for your project"
-              }
-            ].map((process, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl font-bold text-amber-400 mb-4">{process.step}</div>
-                <h4 className="text-xl font-semibold text-white mb-3">{process.title}</h4>
-                <p className="text-gray-400 text-sm">{process.description}</p>
-              </div>
-            ))}
-          </div>
         </div>
 
         {/* CTA Section */}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code2, Lightbulb, Users, Zap, Download, Award, BookOpen, Coffee } from 'lucide-react';
+import { Code2, Lightbulb, Users, Zap, Download, BookOpen } from 'lucide-react';
 
 const About = () => {
   const scrollToSection = (sectionId) => {
@@ -16,13 +16,6 @@ const About = () => {
     { name: "UI/UX Design", level: 85 },
     { name: "Mobile Development", level: 80 },
     { name: "Backend Development", level: 75 }
-  ];
-
-  const stats = [
-    { number: "50+", label: "Projects Completed", icon: <Code2 size={24} /> },
-    { number: "2+", label: "Years Experience", icon: <Award size={24} /> },
-    { number: "30+", label: "Happy Clients", icon: <Users size={24} /> },
-    { number: "100%", label: "Client Satisfaction", icon: <Zap size={24} /> }
   ];
 
   const values = [
@@ -46,13 +39,6 @@ const About = () => {
       title: "Performance",
       description: "Optimizing every aspect of development for speed, efficiency, and user experience."
     }
-  ];
-
-  const interests = [
-    { icon: <BookOpen size={20} />, text: "Learning new technologies" },
-    { icon: <Code2 size={20} />, text: "Open source contributions" },
-    { icon: <Coffee size={20} />, text: "Tech meetups & conferences" },
-    { icon: <Users size={20} />, text: "Mentoring junior developers" }
   ];
 
   return (
@@ -105,21 +91,6 @@ const About = () => {
                 </button>
               </div>
             </div>
-
-            {/* Interests */}
-            {/* <div className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-slate-700">
-              <h3 className="text-2xl font-semibold mb-6 text-white">When I'm Not Coding</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {interests.map((interest, index) => (
-                  <div key={index} className="flex items-center gap-3 text-gray-300">
-                    <div className="text-amber-400">
-                      {interest.icon}
-                    </div>
-                    <span>{interest.text}</span>
-                  </div>
-                ))}
-              </div>
-            </div> */}
           </div>
 
           {/* Right Column - Skills & Stats */}
@@ -144,22 +115,6 @@ const About = () => {
                 ))}
               </div>
             </div>
-
-            {/* Stats */}
-            {/* <div className="bg-slate-900/50 backdrop-blur-md rounded-2xl p-8 shadow-xl border border-slate-700">
-              <h3 className="text-2xl font-semibold mb-6 text-white">Achievements</h3>
-              <div className="grid grid-cols-2 gap-6">
-                {stats.map((stat, index) => (
-                  <div key={index} className="text-center">
-                    <div className="text-amber-400 mb-2 flex justify-center">
-                      {stat.icon}
-                    </div>
-                    <div className="text-3xl font-bold text-white mb-1">{stat.number}</div>
-                    <div className="text-gray-400 text-sm">{stat.label}</div>
-                  </div>
-                ))}
-              </div>
-            </div> */}
           </div>
         </div>
 
@@ -220,7 +175,7 @@ const About = () => {
                 <div className="w-2 h-2 bg-amber-400 rounded-full mt-3 flex-shrink-0"></div>
                 <div>
                   <h4 className="text-white font-medium">Advanced React Development</h4>
-                  <p className="text-gray-400 text-sm">Mastering React 18, Next.js 14, and modern state management</p>
+                  <p className="text-gray-400 text-sm">Mastering React 18, Nest.js 14, and modern state management</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
