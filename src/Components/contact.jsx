@@ -38,14 +38,14 @@ const Contact = () => {
     {
       icon: <Mail size={20} />,
       title: 'Email',
-      value: 'andrew.bakareke@email.com',
-      link: 'mailto:andrew.bakareke@email.com'
+      value: 'bakarekeandrew@gmail.com',
+      link: 'bakarekeandrew@gmail.com'
     },
     {
       icon: <Phone size={20} />,
       title: 'Phone',
-      value: '+250 xxx xxx xxx',
-      link: 'tel:+250xxxxxxx'
+      value: '+250789490560',
+      link: 'tel:+250789490560'
     },
     {
       icon: <MapPin size={20} />,
