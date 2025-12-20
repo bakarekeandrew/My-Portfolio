@@ -39,7 +39,7 @@ const Contact = () => {
       icon: <Mail size={20} />,
       title: 'Email',
       value: 'bakarekeandrew@gmail.com',
-      link: 'bakarekeandrew@gmail.com'
+      link: 'mailto:bakarekeandrew@gmail.com'
     },
     {
       icon: <Phone size={20} />,
@@ -51,7 +51,7 @@ const Contact = () => {
       icon: <MapPin size={20} />,
       title: 'Location',
       value: 'Kigali, Rwanda',
-      link: '#'
+      link: 'https://www.google.com/maps/place/Kigali'
     }
   ];
 
@@ -181,7 +181,7 @@ const Contact = () => {
                   onChange={handleInputChange}
                   rows={5}
                   className="w-full p-4 bg-slate-800 border border-slate-600 rounded-lg focus:border-amber-400 focus:outline-none transition-colors duration-300 text-white resize-none"
-                  placeholder="Tell me about your project, timeline, budget, and any specific requirements..."
+                  placeholder="Tell me about your project and any specific requirements..."
                   required
                 ></textarea>
               </div>
