@@ -3,6 +3,7 @@ import Hero from "./hero";
 import About from "./about";
 import Service from "./service";
 import Contact from "./contact";
+import Projects from "./Projects";
 
 const Main = () => {
   return (
@@ -13,6 +14,7 @@ const Main = () => {
         </div>
         <Hero />
         <About />
+        <Projects />
         <Service />
         <Contact />
         <div className="text-center py-8">

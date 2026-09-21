@@ -62,10 +62,10 @@ const About = () => {
               <h3 className="text-2xl font-semibold mb-6 text-white">My Story</h3>
               <div className="space-y-4 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  I'm a software engineering student passionate about building impactful digital solutions. My journey in tech started with curiosity and has grown into a commitment to creating meaningful user experiences through clean, maintainable code.
+                  I'm a software developer with a BSc in Information Technology from AUCA, passionate about building impactful digital solutions. My journey in tech started with curiosity and has grown into a commitment to creating meaningful user experiences through clean, maintainable code.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  As a continuous learner, I stay updated with the latest technologies and best practices. I enjoy collaborating in team environments and solving complex problems with creative solutions.
+                  I build full-stack web and mobile applications with React, Flutter, Spring Boot, and Node.js, from secure REST APIs to polished interfaces. I've also trained aspiring developers in modern web development, which keeps my fundamentals sharp. I enjoy collaborating in team environments and solving complex problems with creative solutions.
                 </p>
               </div>
               
@@ -141,9 +141,9 @@ const About = () => {
             <div className="space-y-6">
               <div className="border-l-2 border-amber-400 pl-6 relative">
                 <div className="absolute w-3 h-3 bg-amber-400 rounded-full -left-2 top-1"></div>
-                <h4 className="text-lg font-semibold text-white">Software Engineering</h4>
-                <p className="text-amber-400 font-medium">University/Institution</p>
-                <p className="text-gray-400 text-sm">2022 - Present</p>
+                <h4 className="text-lg font-semibold text-white">BSc in Information Technology</h4>
+                <p className="text-amber-400 font-medium">Adventist University of Central Africa (AUCA)</p>
+                <p className="text-gray-400 text-sm">2022 - 2026</p>
                 <p className="text-gray-300 mt-2">
                   Focusing on modern software development practices, algorithms, data structures, 
                   and full-stack web development.
