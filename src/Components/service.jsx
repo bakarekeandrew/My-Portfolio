@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Smartphone, Palette, Globe, Database, Zap } from 'lucide-react';
+import { Code, Smartphone, Palette, Globe, Database, Zap, Server } from 'lucide-react';
 
 const Service = () => {
   const services = [
