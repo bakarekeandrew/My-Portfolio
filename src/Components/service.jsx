@@ -24,7 +24,7 @@ const Service = () => {
     {
       icon: <Server size={48} />,
       title: "Backend Development",
-      description: "Building secure, scalable APIs and backend systems with robust business logic and database integration.",
+      description: "Developing scalable backend systems, REST APIs, and business logic that power reliable modern applications.",
       technologies: ["Java", "Spring Boot", "Node.js", "Express.js"]
     },
     {
