@@ -162,9 +162,10 @@ const About = () => {
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-amber-400 rounded-full mt-3 flex-shrink-0"></div>
                 <div>
-                  <h4 className="text-white font-medium">Advanced React Development</h4>
-                  <p className="text-gray-400 text-sm">Mastering React 18, Nest.js 14, and modern state management</p>
-                </div>
+                  <h4 className="text-white font-medium">Advanced Java & Spring Boot</h4>
+                  <p className="text-gray-400 text-sm">
+                    Building scalable REST APIs with Spring Boot, JPA/Hibernate, Spring Security, and PostgreSQL
+                  </p>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-amber-400 rounded-full mt-3 flex-shrink-0"></div>
