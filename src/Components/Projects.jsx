@@ -29,19 +29,6 @@ const Projects = () => {
       live: null
     },
     {
-      title: "Automated Data Integration & ETL Platform",
-      category: "Backend / Data",
-      description: "Automated pipelines that collect, validate, and load data from REST APIs into PostgreSQL.",
-      highlights: [
-        "Data quality checks and duplicate detection",
-        "Scheduled sync jobs with logging and retry mechanisms",
-        "Dockerized and deployed in a Linux environment"
-      ],
-      technologies: ["Python", "FastAPI", "PostgreSQL", "Docker"],
-      github: null,
-      live: null
-    },
-    {
       title: "Car Sharing Application",
       category: "Full-Stack",
       description: "A car-sharing platform with bookings, vehicle listings, and user management.",
