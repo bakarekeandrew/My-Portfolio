@@ -13,8 +13,8 @@ const Projects = () => {
         "Optimized database schemas and SQL queries"
       ],
       technologies: ["React", "Spring Boot", "PostgreSQL", "JWT"],
-      github: "https://github.com/bakarekeandrew/REPO-NAME",
-      live: null
+      github: "https://safereport5.vercel.app/",
+      live: true
     },
     {
       title: "SafeReport Mobile",
@@ -111,7 +111,7 @@ const Projects = () => {
                 {project.github && (
                   <a href={project.github} target="_blank" rel="noopener noreferrer"
                      className="flex items-center gap-2 text-sm text-gray-300 hover:text-amber-400 transition-colors">
-                    <Github size={18} /> Code
+                    <Github size={18} /> Link
                   </a>
                 )}
                 {project.live && (
