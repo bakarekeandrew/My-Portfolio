@@ -7,7 +7,7 @@ const Service = () => {
       icon: <Code size={48} />,
       title: "Web Development",
       description: "Building fast, scalable, and user-friendly websites using React, Next.js, and modern CSS frameworks.",
-      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+      technologies: ["React", "Next.js", "TypeScript", "Javascript", "Tailwind CSS"]
     },
     {
       icon: <Smartphone size={48} />,
@@ -22,16 +22,16 @@ const Service = () => {
       technologies: ["Figma", "Adobe XD", "Sketch"]
     },
     {
-      icon: <Globe size={48} />,
-      title: "E-Commerce Solutions",
-      description: "Building robust e-commerce platforms with secure payment integration and analytics.",
-      technologies: ["Shopify", "WooCommerce", "Stripe"]
+      icon: <Server size={48} />,
+      title: "Backend Development",
+      description: "Building secure, scalable APIs and backend systems with robust business logic and database integration.",
+      technologies: ["Java", "Spring Boot", "Node.js", "Express.js"]
     },
     {
       icon: <Database size={48} />,
-      title: "Backend Development",
-      description: "Developing robust APIs and backend systems that handle high traffic and complex business logic.",
-      technologies: ["Node.js", "Python", "MongoDB", "PostgreSQL"]
+      title: "Database Solutions",
+      description: "Designing, developing, and optimizing secure and scalable database systems for modern applications.",
+      technologies: ["PostgreSQL", "MySQL", "MongoDB", "Redis","Others"]
     },
     {
       icon: <Zap size={48} />,
