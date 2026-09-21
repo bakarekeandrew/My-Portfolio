@@ -166,19 +166,13 @@ const About = () => {
                   <p className="text-gray-400 text-sm">
                     Building scalable REST APIs with Spring Boot, JPA/Hibernate, Spring Security, and PostgreSQL
                   </p>
-              </div>
-              <div className="flex items-start gap-3">
-                <div className="w-2 h-2 bg-amber-400 rounded-full mt-3 flex-shrink-0"></div>
-                <div>
-                  <h4 className="text-white font-medium">Cloud Technologies</h4>
-                  <p className="text-gray-400 text-sm">Learning AWS, Docker, and microservices architecture</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
                 <div className="w-2 h-2 bg-amber-400 rounded-full mt-3 flex-shrink-0"></div>
                 <div>
-                  <h4 className="text-white font-medium">Mobile Development</h4>
-                  <p className="text-gray-400 text-sm">Expanding skills in React Native and Flutter</p>
+                  <h4 className="text-white font-medium">Cloud Technologies</h4>
+                  <p className="text-gray-400 text-sm">Learning AWS, Docker, and kubernetes</p>
                 </div>
               </div>
             </div>
