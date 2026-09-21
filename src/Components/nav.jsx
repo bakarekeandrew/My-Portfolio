@@ -53,6 +53,7 @@ const Nav = () => {
             {[
               { id: 'home', label: 'Home' },
               { id: 'about', label: 'About' },
+              { id: 'project', label: 'Project' },
               { id: 'services', label: 'Services' },
               { id: 'contact', label: 'Contact' }
             ].map((item) => (
