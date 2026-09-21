@@ -10,12 +10,12 @@ const About = () => {
   };
 
   const skills = [
-    "Frontend Development",
-    "React & Next.js",
-    "JavaScript/TypeScript",
     "UI/UX Design",
+    "Frontend Development",
     "Mobile Development",
-    "Backend Development"
+    "Backend Development",
+    "Database",
+    "DevOps"
   ];
 
   const values = [
